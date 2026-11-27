@@ -1,35 +1,421 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barry Home page 1</title>
-  <link rel="stylesheet" href="barryHome.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Barry | Web Developer</title>
+
+<link rel="stylesheet" href="barryHome200.css">
 </head>
+
 <body>
-    <div class="container">
-        <nav> 
-            <a href="#">Home</a>
-             <a href="#">Project</a>
-              <a href="#">About-Barry</a> 
-        </nav>
-<main>
-    <div class="column1"><h1>DEVELOPING WITH CODER'S MINDSET</h1>
-        <p>Thinker's Mindset evaluates decision<br>
-        Learn from mistakes<br>
-        <span><h1>DEVELOPING WITH FOCUS</h1></span>
-    Thinks about how to improve</p>
-    <div class="column1i">
-        Consistency and determination is a skill
-        
-    </div>
-    </div>
-     <div class="column2"><img src="Barrypic.jpeg" alt="Barry's pic">
-        <button type="submit"> Book a session</button>
-    </div>
+
+<!-- MAIN CONTAINER -->
+
+<div class="container">
+
+<!-- NAVIGATION -->
+
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#projects">Projects</a>
+<a href="#about">About Barry</a>
+</nav>
+
+
+<!-- HOME SECTION -->
+
+<main id="home">
+
+<div class="column1">
+
+<h3 class="welcome">WELCOME TO MY PORTFOLIO</h3>
+
+<h1>
+DEVELOPING WITH
+<span>CODER'S MINDSET</span>
+</h1>
+
+<p>
+Hello! I'm Barry, an aspiring Full-Stack Developer
+passionate about technology, creativity and
+building solutions through code.
+</p>
+
+<p>
+I believe in consistency, determination,
+continuous learning and improving every day.
+</p>
+
+<div class="home-buttons">
+
+<a href="#projects" class="primary-btn">
+Explore My Projects
+</a>
+
+<a href="#about" class="secondary-btn">
+Learn About Me
+</a>
+
+</div>
+
+</div>
+
+
+<div class="column2">
+
+<img src="Barrypic.jpeg" alt="Barry's profile picture">
+
+<button type="button" id="openBooking" aria-haspopup="dialog" aria-controls="bookingContainer">
+Book Me / Book a Session
+</button>
+
+</div>
+
 </main>
 
-    </div>
-    
+
+<!-- SERVICES SECTION -->
+
+<section class="services" id="services">
+
+<h1>MY SERVICES</h1>
+
+<p class="section-intro">
+Exploring web technologies and developing the
+skills required to build modern web applications.
+</p>
+
+<div class="service-container">
+
+<div class="service-card">
+<h2>HTML</h2>
+
+<p>
+Creating well-structured and meaningful
+web pages using HTML.
+</p>
+</div>
+
+
+<div class="service-card">
+<h2>CSS</h2>
+
+<p>
+Designing attractive, responsive and
+user-friendly websites using CSS.
+</p>
+</div>
+
+
+<div class="service-card">
+<h2>JavaScript</h2>
+
+<p>
+Building interactive websites and
+adding dynamic functionality with JavaScript.
+</p>
+</div>
+
+
+<div class="service-card">
+<h2>Frontend Development</h2>
+
+<p>
+Combining HTML, CSS and JavaScript to
+create responsive user interfaces.
+</p>
+</div>
+
+
+<div class="service-card">
+<h2>Backend Development</h2>
+
+<p>
+Learning to build server-side applications,
+APIs and database connections using
+Node.js, Express and Supabase.
+</p>
+</div>
+
+
+<div class="service-card">
+<h2>Full-Stack Development</h2>
+
+<p>
+Developing frontend and backend skills
+to create complete web applications.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- PROJECTS SECTION -->
+
+<section class="projects" id="projects">
+
+<h1>MY PROJECTS</h1>
+
+<p class="section-intro">
+Every project is an opportunity to learn,
+solve problems and improve my development skills.
+</p>
+
+
+<div class="project-container">
+
+
+<!-- EXPENSE TRACKER -->
+
+<div class="project-card">
+
+<div class="project-icon">
+💰
+</div>
+
+<h2>Expense Tracker</h2>
+
+<p>
+A financial management application designed
+to help users record income and expenses,
+organize transactions and monitor their
+financial activities.
+</p>
+
+<div class="project-technologies">
+
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>Node.js</span>
+<span>Express</span>
+<span>Supabase</span>
+
+</div>
+
+<a href="#" class="project-link">
+View Project
+</a>
+
+</div>
+
+
+<!-- FIREGUARD -->
+
+<div class="project-card">
+
+<div class="project-icon">
+🔥
+</div>
+
+<h2>FireGuard</h2>
+
+<p>
+An intelligent fire and smoke monitoring
+system designed to detect potential fire
+hazards and provide alerts through
+connected technology.
+</p>
+
+<div class="project-technologies">
+
+<span>ESP32</span>
+<span>IoT</span>
+<span>Sensors</span>
+<span>Firebase</span>
+<span>JavaScript</span>
+
+</div>
+
+<a href="#" class="project-link">
+View Project
+</a>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<!-- ABOUT SECTION -->
+
+<section class="about" id="about">
+
+<h1>ABOUT BARRY</h1>
+
+<p>
+I am an Engineering graduate with a strong interest
+in technology, software development and innovation.
+</p>
+
+<p>
+My journey into web development is driven by
+curiosity and the desire to understand how
+applications work, from the user interface
+to the server and database.
+</p>
+
+<p>
+I am continuously improving my programming skills
+and working towards becoming a professional
+Full-Stack Developer.
+</p>
+
+<h2>MY PHILOSOPHY</h2>
+
+<p class="philosophy">
+"Consistency, determination and a willingness
+to learn are the foundations of growth."
+</p>
+
+<button type="button" id="aboutBooking">
+Let's Work Together
+</button>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<h2>Barry</h2>
+
+<p>
+Learning. Building. Improving.
+</p>
+
+<p>
+&copy; 2026 Barry. All Rights Reserved.
+</p>
+
+</footer>
+
+
+</div>
+
+
+<!-- BOOKING FORM -->
+
+<div class="booking-container" id="bookingContainer" role="dialog" aria-modal="true" aria-labelledby="bookingTitle">
+
+<div class="booking-form">
+
+<button type="button"
+class="close-btn"
+id="closeBooking">
+
+&times;
+
+</button>
+
+
+<h2 id="bookingTitle">Book a Session</h2>
+
+<p>
+Let's discuss your ideas and work together.
+</p>
+
+
+<form id="bookingForm">
+
+<input
+type="text"
+id="fullName"
+placeholder="Full Name"
+required
+>
+
+<input
+type="email"
+id="email"
+placeholder="Email Address"
+required
+>
+
+<input
+type="tel"
+id="phone"
+placeholder="Phone Number"
+required
+>
+
+
+<select id="sessionType" required>
+
+<option value="">
+Select Session Type
+</option>
+
+<option value="Web Development Consultation">
+Web Development Consultation
+</option>
+
+<option value="Coding Lessons">
+Coding Lessons
+</option>
+
+<option value="Project Discussion">
+Project Discussion
+</option>
+
+<option value="Collaboration">
+Collaboration
+</option>
+
+</select>
+
+
+<label for="date">
+Preferred Date
+</label>
+
+<input
+type="date"
+id="date"
+required
+>
+
+
+<label for="time">
+Preferred Time
+</label>
+
+<input
+type="time"
+id="time"
+required
+>
+
+
+<textarea
+id="message"
+placeholder="Tell me briefly what you want to discuss..."
+rows="4"
+></textarea>
+
+
+<button type="submit">
+Send Booking Request
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+
+<script src="booking.js"></script>
+
 </body>
+
 </html>
